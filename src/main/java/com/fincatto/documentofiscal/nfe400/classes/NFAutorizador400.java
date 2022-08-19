@@ -79,7 +79,7 @@ public enum NFAutorizador400 {
 
         @Override
         public String getNfceStatusServico(final DFAmbiente ambiente) {
-            return DFAmbiente.HOMOLOGACAO.equals(ambiente) ? "https://homnfce.sefaz.am.gov.br/nfce-services-nac/services/NfeStatusServico2" : "https://nfce.sefaz.am.gov.br/nfce-services/services/NfeStatusServico2";
+            return DFAmbiente.HOMOLOGACAO.equals(ambiente) ? "https://homnfce.sefaz.am.gov.br/nfce-services/services/NfeStatusServico4" : "https://nfce.sefaz.am.gov.br/nfce-services/services/NfeStatusServico4";
         }
 
         @Override
