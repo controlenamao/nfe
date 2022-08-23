@@ -13,8 +13,11 @@ import java.time.format.DateTimeFormatter;
 public class NFProtocoloInfo extends DFBase {
     private static final long serialVersionUID = -7256753142051587115L;
 
-    @Attribute(name = "id", required = false)
+    @Attribute(name = "Id", required = false)
     private String identificador;
+
+    @Attribute(name = "id", required = false)
+    private String id;
 
     @Element(name = "tpAmb")
     private DFAmbiente ambiente;
@@ -142,5 +145,12 @@ public class NFProtocoloInfo extends DFBase {
         this.mensagem = mensagem;
     }
 
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
 }
 
