@@ -15,6 +15,7 @@ public enum NFMeioPagamento {
     BOLETO_BANCARIO("15", "Boleto bancario"),
     DEPOSITO_BANCARIO("16", "Deposito bancario"),
     PIX("17", "Pagamento Instantaneo (PIX)"),
+    PIX_ALTERNATIVO("20", "Pagamento Instantaneo (PIX) - Alternativo da Receita"),
     TRANSFERENCIA_BANCARIA("18", "Transferencia bancaria"),
     FIDELIDADE_CASHBACK("19", "Programa de fidelidade (Cashback)"),	
     SEM_PAGAMENTO("90", "Sem pagamento"),
